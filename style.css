@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("imdb.jpg");
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top:solid white 1px;
+}
+
+.menu {
+    text-align: center;
+    padding: 15px;
+    background-color: grey;
+    border-bottom: 1px white  solid;
+}
+
+.menuopt {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.menuopt:hover {
+    background-color: black;
+}
+
+form {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+form input {
+    padding: 5px;
+    margin-right: 25px;
+}
+
+table, th, td{
+    background-color: grey;
+    color:  white;
+    border-collapse: collapse;
+    padding: 15px;
+    border: solid 1px  white;
+}
+
+table {
+    margin-top: 40px;
+}
+
+.button  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.search {
+    padding: 30px;
+    border-bottom: none;
+}
+
+.searchinput {
+    margin: 0;
+}
+
+p {
+    background-color: grey;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.customh2_01 {
+    border: none;
+}
+
+.customh2_02 {
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+}
